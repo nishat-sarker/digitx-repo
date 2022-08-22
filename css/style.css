@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* font family
+font-family: 'Heebo', sans-serif;
+font-family: 'Nunito', sans-serif; */
+.container{
+    width: 1440px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+
+/* header secction css code start here  */
+header{
+    height: 66px;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    background-color:#ed1b24;
+    margin-top: 0;
+}
+#header-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    line-height: 30px;
+    padding-top: 15px;
+}
+.phone-number, .email{
+    display: flex;
+    cursor: pointer;
+}
+.email a, .follow a{
+    line-height: 44px;
+}
+.email p{
+    line-height: 30px;
+    padding-left: 4px;
+}
+.follow{
+    text-align: end;
+}
+.follow a{
+    padding-left: 5px;
+}
+/* header secction css code end here  */
+
+/* Nav secction css code start here  */
+nav{
+    margin-top: 33px;
+}
+#nav-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.logo{
+    display: flex;
+}
+.logo a img{
+    width: 100%;
+}
+.logo p{
+    font-family: 'Heebo', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58.75px;
+}
+.logo p sup{
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+}
+#nav-section .nav-menue{
+    text-align: center;
+}
+.nav-menue{
+    padding-top: 20px;
+}
+.nav-menue ul li{
+    display: inline-block;
+}
+.nav-menue ul li a{
+    padding: 0 11px;
+    font-size: 25px;
+    color: #000000;
+}
+.nav-menue a:hover{
+    color:#febb43;
+}
+.nav-buttom{
+    text-align: end;
+    padding-top: 20px;
+}
+.nav-buttom a, .banner-buttom a{
+    font-family: 'Heebo', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 15px 45px;
+    border: 1px solid #ed1b24;
+    border-radius: 11px;
+    background-color: #ed1b24;
+}
+.nav-buttom a:hover{
+    color: #febb43;
+    background-color: #ffffff;
+}
+/* Nav secction css code end here  */
+
+/* Banner secction css code start here  */
+#banner-section{
+    padding-top: 140px;
+}
+.banner{
+    display: grid; 
+    grid-template-columns: 2fr 01.75fr 0fr;
+}
+.banner-detail{
+    position: relative;
+}
+.banner-detail h1, .banner-detail h2{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    margin-top: 23px;
+}
+.banner-detail h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 37px;
+}
+.banner-detail h1{
+    font-size: 50px;
+    line-height: 73px;
+}
+.banner-img{
+    text-align: end;
+    position: relative;
+}
+.banner-logo{
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+}
+.line{
+    position: absolute;
+    top: 150px;
+    right: 180px;
+}
+.banner-buttom a{
+    color: #000000;
+    background-color: #febb43;
+    border: none;
+}
+.banner-btn-section{
+    display: flex;
+    padding-top: 95px;
+}
+.banner-buttom-2{
+    padding-left: 30px;
+    display: flex;
+    cursor: pointer;
+}
+.banner-buttom-2 p{
+    padding: 5px 0px 0px 5px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+.banner-buttom-2:hover{
+    color: #febb43;
+}
+/* Banner secction css code end here  */
+
+/* worsk secction css code start here  */
+#work-section{
+    padding: 150px 0px;
+    height:939px;
+}
+#work{
+    display: flex;
+    justify-content: space-between;
+}
+.work-card-1, .work-card-3{
+    height: 396px;
+    width: 379px;
+}
+#work h2{
+    margin-top: 13px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 88px;
+}
+#work .name{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 48px;
+    padding-top: 60px;
+    color: #000000;
+}
+#work p{
+    font-size: 27px;
+    color: #767575;
+    line-height: 37px;
+    padding-top: 40px;
+}
+.work-card-1, .work-card-2, .work-card-3, .work-card-4, .work-card-5, .work-card-6{
+    border: 1px solid #CACACA;
+    border-radius: 11px;
+    padding: 28px;
+    margin-top: 15px;
+}
+.work-card-2, .work-card-6{
+    height: 493px;
+    width: 379px;
+}
+.work-card-4{
+    width: 379px;
+    height: 422px;
+}
+.work-card-4 .card-btn{
+    padding-top: 40px !important;
+}
+.work-card-5{
+    height: 396px;
+    width: 379px;
+    border: none;
+}
+.work-card-5 h2{
+    font-size: 40px !important;
+    padding-bottom: 50px;
+}
+.card-2{
+    margin-top: 70px;
+}
+/* worsk secction css code end here  */
