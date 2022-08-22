@@ -242,3 +242,214 @@ nav{
     margin-top: 70px;
 }
 /* worsk secction css code end here  */
+
+/* career secction css code start here  */
+#career-section{
+    margin-top: 50px;
+}
+.career{
+    display: grid;
+    display: grid; 
+    grid-template-columns: 3fr 1fr 2fr;
+}
+.career-details h2{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 73.44px;
+}
+.career-details p{
+    font-size: 25px;
+    line-height: 47px;
+    color: #A3A3A3;
+    padding: 30px 0px;
+    width: 590px;
+}
+/* career secction css code end here  */
+/* portfolio-section secction css code start here  */
+#portfolio-section{
+    padding: 148px 0px;
+}
+.portfolio{
+    display: flex;justify-content: space-between;
+}
+.img-3{
+    width: 491px;
+    height: 396px;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 11px;
+}
+.img-3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.img-3 h3{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    padding-bottom: 42px;
+}
+/* portfolio-section secction css code end here  */
+
+/* Team-member secction css code start here  */
+.team-heading{
+    text-align: center;
+}
+.team-heading h2{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 33px;
+}
+.team-heading p{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 47px;
+    padding-bottom: 70px;
+}
+.team{
+    display: flex;
+    justify-content: space-between;
+}
+/* Team-member secction css code end here  */
+
+/* Contact-us secction css code start here  */
+#contact-us{
+    padding: 140px 0px;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1.75fr 2fr 0fr;
+}
+.img-top{
+    display: flex;
+}
+.img-top h4{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    width: 233px;
+    height: 124px;
+    padding: 40px 20px;
+}
+.img-top h4::first-letter{
+    font-size: 90px;
+    color: #febb43;
+}
+.contact li{
+    list-style: square;
+}
+.contact-details h2{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    width: 628px;
+    font-size: 50px;
+    line-height: 73px;
+    height: 124px;
+    padding-bottom: 60px;
+    
+}
+.contact-details p{
+    font-size: 25px;
+    line-height: 47px;
+    color: #A3A3A3;
+    width: 628px;
+    margin-top: 60px;
+}
+.contact-details ul{
+    width: 630px;
+    height: 233px;
+    padding: 60px;
+}
+.contact-details ul li{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 186.9%;
+}
+/* Contact-us secction css code end here  */
+.review-header{
+    display: flex;
+    justify-content: space-between;
+}
+.review-header h2{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 73px;
+    padding-bottom: 40px;
+}
+.img-2, .imgs-3, .img-4{
+    margin-top: 20px;
+}
+.review-header img{
+    padding-top: 60px;
+}
+.imgs-3{
+    text-align: end;
+}
+
+footer{
+    height: 616px;
+    background-color: #ED1B24;
+    margin-top: 160px;
+    padding: 55px 0px;
+}
+footer h2{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 186.9%;
+    color: #FFFFFF;
+}
+.footer-details p{
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 186.9%;
+    padding-bottom: 50px;
+}
+.footer-contact{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+.pages-area{
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 2fr;
+}
+.pages-area ul li{
+    list-style: none;
+}
+.pages-area ul li a{
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 186.9%;
+}
+.pages-area ul li a:hover{
+    color: #939393;
+}
+.footer-address{
+    text-align: center;
+}
+.newsletter{
+    padding-left: 20px;
+    margin-left: 40px;
+}
+.newsletter input{
+    padding: 20px 320px 20px 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 30px;
+}
+
+/* copyright section css code here  */
+.copyright{
+    height: 44px;
+}
